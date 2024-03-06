@@ -1,0 +1,75 @@
+.content {
+    margin: 5px auto 0px auto;
+    text-align: left;
+    line-height: 20px;
+    height: 60vh;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    border-radius: 5px;
+    border: 2px solid #A100FA;
+    display: block;
+    padding: 1.25rem;
+    z-index: 2;
+    background: hsl(232deg 16% 15%);
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+}
+
+#content-input {
+    appearance: none;
+    border: none;
+    outline: none;
+    border-bottom: .2em solid #A100FA;
+    background: rgba(0, 0, 0, 0);
+    border-radius: .2em .2em 0 0;
+    padding: .4em;
+    color: #ccc;
+    opacity: 1;
+    height: 1.7rem;
+    margin-right: 3rem;
+    font-size: 1.7rem;
+    width: 70%;
+}
+
+.content .item {
+    visibility: hidden;
+    transition: all 0.3s;
+    position: absolute;
+    padding: 10px 20px;
+    width: 95%;
+}
+@media only screen  and  (max-width:1000px) {
+    .content .item {
+        width: 90%;
+    }
+}
+@media (min-width:1001px){
+    .content .item {
+        width: 95%;
+    }
+}
+.item.checked {
+    opacity: 1;
+    visibility: visible;
+}
+
+.content p,
+input#edit-input {
+    opacity: 1;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0.5rem 0.5rem 0.5rem 2rem;
+    flex: 70%;
+}
+
+.content p.done {
+    text-decoration: line-through;
+}

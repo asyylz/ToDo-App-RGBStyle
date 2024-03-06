@@ -1,0 +1,44 @@
+.title {
+    text-align: center;
+    padding: 50px 0px 25px 0;
+    font-weight: 600;
+    font-family: "Playfair Display SC";
+    display: flex;
+    justify-content: center;
+    width: 160%;
+    margin-top: 3rem;
+
+}
+
+.title .btnAdd {
+    color: #ccc;
+    padding: 0.7em 2em; 
+}
+
+/* For screens larger than 991px */
+@media (min-width: 991px) {
+    .title {
+        font-size: 2.7em;
+    }
+}
+
+/* For screens between 901px and 990px */
+@media (min-width: 901px) and (max-width: 990px) {
+    .title {
+        font-size: 2.5em;
+    }
+}
+
+/* For screens between 800px and 900px */
+@media (min-width: 800px) and (max-width: 900px) {
+    .title {
+        font-size: 1.9em;
+    }
+}
+
+/* For screens up to 799px */
+@media only screen and (max-width: 799px) {
+    .title {
+        font-size: 1.7em;
+    }
+}

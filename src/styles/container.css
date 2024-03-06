@@ -1,0 +1,22 @@
+.container {
+    padding: 10px 0;
+    text-align: center;
+    width: 90%;
+    padding: 10px 0px;
+    text-align: center;
+    align-items: center;
+    max-width: 1600px;
+}
+
+.container .card {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    background: linear-gradient(#141e30, #243b55);
+    border-top: 1px solid #3b3d3f;
+    background: hsl(232deg 18% 8%);
+    display: flex;
+}

@@ -1,0 +1,96 @@
+.tabs input {
+    position: relative;
+    opacity: 0;
+    margin: auto;
+    padding: 0;
+}
+
+div.card.tabs {
+    height: 110px;
+   
+}
+
+label.tab {
+  
+    height: 60%;
+    align-items: center;
+}
+
+.tabs input+label {
+    width: 50%;
+    transition: all 0.3s;
+    text-align: center;
+    border: none;
+    color: #e7e9f5;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    vertical-align: top;
+    justify-content: flex-start;
+    background: #333;
+    text-transform: uppercase;
+    font-weight: 300;
+    background: #26292c;
+    border-radius: 7px 7px 7px 7px !important;
+    letter-spacing: 0.1666666667em !important;
+    font-family: "antique-olive" !important;
+    cursor: pointer;
+}
+
+.tabs input+label:hover {
+    color: #777;
+}
+
+#tab-1:checked+label,
+#tab-2:checked+label,
+#tab-3:checked+label,
+#tab-4:checked+label,
+#tab-5:checked+label,
+#tab-6:checked+label,
+#tab-7:checked+label {
+    color: #ffadfa;
+    color: #ffaa75;
+}
+
+@media (min-width:1181px) {
+    .tabs input+label {
+        font-size: 1rem;
+        margin: 12px;
+        padding: 5pt 10pt;
+    }
+
+}
+
+@media (max-width:1180px) {
+    .tabs input+label {
+        font-size: 0.9rem;
+        margin: 12px;
+        padding: 5pt 10pt;
+    }
+
+}
+
+@media (min-width:801px)and (max-width:1179px) {
+    .tabs input+label {
+        margin: 8px 0 0 0;
+        font-size: 0.9rem;
+        padding: 5pt 10pt;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+    div.card.tabs {
+        display: flex;
+    }
+
+    .tabs input+label {
+        font-size: 0.8rem;
+        padding: 0pt;
+        width: 75% !important;
+        margin: 20px 0 0 0;
+    }
+
+    .card.tabs div {
+        margin-right: 0 !important;
+    }
+}
