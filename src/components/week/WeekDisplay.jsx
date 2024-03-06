@@ -1,6 +1,6 @@
 import { useState } from "react";
 import DisplayToDoContent from "../todos-section/DisplayToDoContent";
-import "../../styles/devider.css";
+
 
 export default function WeekDisplay({
   weekData,
