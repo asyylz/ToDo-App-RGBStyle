@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://asyylz.github.io/React-SelfStudy/05-ToDo-App-RGB/dist",
+  "homepage": "http://asyylz.github.io/React-SelfStudy/05-ToDo-App-RGB/build",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
