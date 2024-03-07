@@ -18,7 +18,7 @@ export default function WeekDisplay({
 
       <div className="card tabs">
         {storedWeekData.map((day, index) => (
-          <div style={{marginRight:"15px"}}>
+          <div id="date-tab">
             <input
               id={`tab-${index + 1}`}
               type="radio"
