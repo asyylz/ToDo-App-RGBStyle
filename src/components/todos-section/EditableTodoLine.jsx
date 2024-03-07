@@ -22,25 +22,6 @@ export default function EditableTodoLine({
     setStoredWeekData(updatedWeekData);
   }
 
-  // function handleIsDoneBtn(todoId) {
-  //   const updatedWeekData = storedWeekData.map((day) => {
-  //     if (day.date === selectedDay) {
-  //       const updatedTodos = day.todos.map((todo) => {
-  //         if (todo.id === todoId) {
-  //           return {
-  //             ...todo,
-  //             isDone: !todo.isDone,
-  //           };
-  //         }
-  //         return todo;
-  //       });
-  //       return { ...day, todos: updatedTodos };
-  //     }
-  //     return day;
-  //   });
-  //   setStoredWeekData(updatedWeekData);
-  // }
-
   function handleEditTodoDescription(todoId, newValue) {
     const updatedWeekData = storedWeekData.map((day) => {
       if (day.date === selectedDay) {
@@ -62,16 +43,6 @@ export default function EditableTodoLine({
 
   return (
     <>
-      {/* <div className="checkbox-wrapper-57">
-        <label className="container">
-          <input
-            type="checkbox"
-            onChange={() => handleIsDoneBtn(todo.id)}
-            checked={todo.isDone}
-          />
-          <div className="checkmark"></div>
-        </label>
-      </div> */}
       {editingTodoId === todo.id ? (
         <input
           //id={`edit-input-${todo.id}`}
@@ -92,16 +63,15 @@ export default function EditableTodoLine({
         </p>
       )}
       <RiEdit2Line
-        size={50}
+        size={40}
         style={{ cursor: "pointer" }}
-        //color="#ff7300"
         color={editingTodoId ? "red" : "#ff7300"}
         onClick={() =>
           editingTodoId ? setEditingTodoId(null) : setEditingTodoId(todo.id)
         }
       />
       <RiDeleteBinLine
-        size={50}
+        size={40}
         style={{ cursor: "pointer" }}
         color="#ff7300"
         onClick={() => handleDeleteBtn(todo.id)}
