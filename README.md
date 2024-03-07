@@ -64,7 +64,6 @@
                 enhancing modularity and reusability.
             </p>
         </details>
-
     </ul>
     <br>
     <h2>Getting Started</h2>
