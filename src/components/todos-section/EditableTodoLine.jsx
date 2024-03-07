@@ -45,7 +45,6 @@ export default function EditableTodoLine({
     <>
       {editingTodoId === todo.id ? (
         <input
-          //id={`edit-input-${todo.id}`}
           id="edit-input"
           value={todo.description}
           onChange={(e) => handleEditTodoDescription(todo.id, e.target.value)}
