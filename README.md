@@ -32,11 +32,8 @@
         </code>
     </pre>
     <br>
-    <h2>Projects Included</h2>
-    <br>
-    <ul>
         <details>
-            <summary>Project Details
+            <summary> <h1>Project Details</h1>
             </summary>
             <br>
             <p> <strong>Description:</strong> The Accordion component is a user interface element that allows users to
@@ -64,7 +61,6 @@
                 enhancing modularity and reusability.
             </p>
         </details>
-    </ul>
     <br>
     <h2>Getting Started</h2>
     To get started with these projects, clone the repository to your local machine:
