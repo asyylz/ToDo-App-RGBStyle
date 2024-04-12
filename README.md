@@ -1,6 +1,8 @@
 <body>
     <h1>RGB Weekly ToDo App</h1>
-    The project is a ToDo application built using React.js, allowing users to manage their daily tasks for a week. It features a user-friendly interface where users can add, delete, and mark tasks as done. The application is designed to help users organize their tasks efficiently.
+    The project is a ToDo application built using React.js, allowing users to manage their daily tasks for a week. It
+    features a user-friendly interface where users can add, delete, and mark tasks as done. The application is designed
+    to help users organize their tasks efficiently.
     <h2>Project Structure</h2>
     <pre>
         <code>
@@ -32,35 +34,36 @@
         </code>
     </pre>
     <br>
-        <details>
-            <summary> <h1>Project Details</h1>
-            </summary>
+    <details>
+        <summary>
+            <h1>Project Details</h1>
+        </summary>
+        <br>
+        <p> <strong>Description:</strong> The Accordion component is a user interface element that allows users to
+            expand and collapse content sections by clicking on the accordion titles.It provides both single and
+            multiple selection modes, enabling users to select one or multiple items at a time.
             <br>
-            <p> <strong>Description:</strong> The Accordion component is a user interface element that allows users to
-                expand and collapse content sections by clicking on the accordion titles.It provides both single and
-                multiple selection modes, enabling users to select one or multiple items at a time.
-                <br>
-                <strong>Concepts:</strong>
-                <br>
-                <em>State Management:</em> Utilizing React's useState hook to manage the state of selected items
-                (selected for single selection mode and multiple for multi-selection mode).
-                <br>
-                <em>Event Handling:</em> Handling click events on the accordion titles to toggle item selection and
-                enable
-                multi-selection mode.
-                <br>
-                <em>Conditional Rendering:</em> Dynamically rendering content sections based on the selected items and
-                the current
-                selection mode.
-                <br>
-                <em>Component Styling:</em> Applying CSS classes dynamically to style selected items and indicate their
-                active state.
-                <br>
-                <em>Component Composition:</em> Structuring the Accordion component with reusable title and content
-                sections,
-                enhancing modularity and reusability.
-            </p>
-        </details>
+            <strong>Concepts:</strong>
+            <br>
+            <u><b>State Management:</b></u> Utilizing React's useState hook to manage the state of selected items
+            (selected for single selection mode and multiple for multi-selection mode).
+            <br>
+            <u><b>Event Handling:</b></u> Handling click events on the accordion titles to toggle item selection and
+            enable
+            multi-selection mode.
+            <br>
+            <u><b>Conditional Rendering:</b></u> Dynamically rendering content sections based on the selected items and
+            the current
+            selection mode.
+            <br>
+            <u><b>Component Styling:</b></u> Applying CSS classes dynamically to style selected items and indicate their
+            active state.
+            <br>
+            <u><b>Component Composition:</b></u> Structuring the Accordion component with reusable title and content
+            sections,
+            enhancing modularity and reusability.
+        </p>
+    </details>
     <br>
     <h2>Getting Started</h2>
     To get started with these projects, clone the repository to your local machine:
@@ -77,5 +80,4 @@
     <br>
     <h2>License</h2>
     <p>This repository is licensed under the MIT License. See the MIT licence file for details.</p>
-
 </body>
