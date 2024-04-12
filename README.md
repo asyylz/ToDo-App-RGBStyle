@@ -36,7 +36,7 @@
     <br>
     <ul>
         <details>
-            <summary>Project 1 : Accordion
+            <summary>Project Details
             </summary>
             <br>
             <p> <strong>Description:</strong> The Accordion component is a user interface element that allows users to
@@ -74,8 +74,6 @@
       git clone https://github.com/asyylz/ToDo-App-RGBStyle.git
     </code>
 </pre>
-    <br>
-    <p>Navigate to the project directory and select the project you want to work on.</p>
     <br>
     <h2>Contributing</h2>
     <p>If you have ideas for additional projects or improvements to existing projects, contributions are welcome! Feel
